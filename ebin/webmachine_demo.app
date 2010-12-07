@@ -1,0 +1,10 @@
+{application,webmachine_demo,
+             [{description,"demo"},
+              {vsn,"1"},
+              {modules,[webmachine_demo,webmachine_demo_app,
+                        webmachine_demo_fs_resource,webmachine_demo_resource,
+                        webmachine_demo_sup]},
+              {registered,[]},
+              {applications,[kernel,stdlib,crypto,mochiweb,webmachine]},
+              {mod,{webmachine_demo_app,[]}},
+              {env,[]}]}.

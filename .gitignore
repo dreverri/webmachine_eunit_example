@@ -1,0 +1,4 @@
+.eunit
+deps
+*.o
+*.beam
